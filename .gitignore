@@ -1,0 +1,32 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+synapse_env/
+synapse_env_backup/
+venv/
+.env/
+
+# Face recognition private data
+faces/
+face_model.yml
+face_labels.json
+
+# Downloaded speech models
+vosk-model-small-en-us-0.15/
+
+# Audio recordings
+*.wav
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
